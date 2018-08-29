@@ -8,5 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
     </style>
+    
+    <style name="RaiseButtonDark" parent="Theme.AppCompat.Light">
+        
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">#CCC</item>
+
+    </style>
 
 </resources>
