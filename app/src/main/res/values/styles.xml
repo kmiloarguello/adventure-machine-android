@@ -10,10 +10,16 @@
     </style>
     
     <style name="RaiseButtonDark" parent="Theme.AppCompat.Light">
-        
         <item name="colorButtonNormal">@color/colorAccent</item>
         <item name="colorControlHighlight">#CCC</item>
+    </style>
 
+    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+        <item name="textColorHint">@color/editTextHint</item>
+        <item name="textSize">20sp</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/editTextHint</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
     </style>
 
 </resources>

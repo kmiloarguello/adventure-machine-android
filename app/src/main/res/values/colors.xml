@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#152137</color>
     <!--<color name="colorPrimaryDark">#0e1626</color>-->
     <color name="colorAccent">#FFF</color>
+    <color name="editTextHint">#DDD</color>
 </resources>
