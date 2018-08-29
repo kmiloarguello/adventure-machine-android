@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 
 import xyz.camiloarguello.phrases.view.HomeActivity;
+import xyz.camiloarguello.phrases.view.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
             }
         }.start();
